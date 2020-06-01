@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Web Development</title>
+	
+
+<style type="text/css">
+	
+	.header{
+		width:100%;
+
+	}
+
+			.first-header {
+			
+			
+			padding:10px;
+			
+			
+			
+			background-color: gray;
+			border:1px solid red;
+			width:99%;
+			float:right;
+			margin-left: 270px
+			font-size:15px;
+			
+			color:white;
+		
+
+		
+			
+		
+		}
+		a{
+			text-decoration: none;
+			float:right;
+		
+
+		}
+		.imm{
+			
+			margin-left:40px;
+		
+
+}
+
+
+	
+
+
+		
+		.box{
+			display:flex;
+		
+			background-image: url("image/ph7.jpg");
+			padding: 20px 20px;
+			opacity:0.5;
+			background-size: cover;
+			width:100%;
+			position: relative;
+
+
+
+
+			
+			
+		}
+
+		.box-left{
+			padding:10px;
+			border:1px solid #black;
+			margin-top:2px;
+
+
+		}
+		.body{
+			background-color: gray;
+
+		}
+		
+		.box img{
+			width:350px;
+
+		}
+		.main-body{
+			display:flex;
+			height: 300px;
+		}
+		.left{
+			width:50%;
+			background-color:#eee;
+			padding:40px;
+			border:2px solid white;
+			border-radius: 20px;
+			margin:5px;
+
+		}
+		.middle{
+			width: 50%;
+			background-color: #eee;
+			padding:40px;
+			border:2px solid white;
+			border-radius: 30px;
+			margin:5px;
+		}
+		.footer{
+			background-color: gray;
+		}
+		.paragraph{
+			font-size: 20px;
+		}
+		.image{
+			float:left;
+			padding-right: 10px;
+			padding-top: 20px;
+		}
+		.main-body .right{
+			width:50%;
+			padding:40px;
+			border:2px solid white;
+			border-radius: 30px;
+			margin:5px;
+			background-color:#eee;
+			text-indent: 3px;
+			letter-spacing:1px;
+		}
+		.txt{
+			background-color:orange;
+			float:right;
+			border-radius:20px;
+		}
+		.std{
+			background-color: orange;
+			float:right;
+			padding: 3px;
+			border-radius: 20px;
+			margin-right: 15px;
+
+
+		}
+		.nav{
+			padding: 30px;
+			width:98%;
+			background-color: #343a40;
+			
+			
+		}
+		.nav a{
+			color:white;
+			float:left;
+			margin:2px;
+		}
+
+		.text{
+			background-color:orange;
+			margin-left: 500px;
+			border-radius:10px;
+			width:100px;
+
+		}
+		
+		.main-body .middle p{
+			text-indent: 3px;
+			letter-spacing:1px;
+
+		}
+		.main-body .left p{
+			text-indent: 3px;
+			letter-spacing:1px;
+
+
+		}
+		.card img:hover{
+			border-left-width: 10px;
+			font-weight: bolder;
+			border: 2px solid #eee;
+
+
+		}
+.bottom{
+	color:orange;
+	font-size:15px;
+	padding: 20px;
+	text-align:center;
+}
+
+		.row .row-left{
+			width:80%;
+			padding:50px;
+			
+		
+		
+			background-color:#eee;
+			
+			
+			float:left;
+		}
+		.row .row-right{
+			width:98%;
+			
+
+			padding:60px;
+			
+			background-color:#eee;
+			text-indent: 3px;
+			letter-spacing:1px;
+		}
+		
+		.row{
+			display:flex;
+		}
+		.card{
+			display: flex;
+		}
+		.pass{
+			
+color: orange;
+text-align: center;
+font-size:30px;
+}
+.card .card1, .card2, .card3, .card4{
+			width:98%;		
+			padding:30px;
+			border:2px solid white;
+			border-radius: 30px;
+			margin-top:3px;
+			position:relative;
+
+}
+.iaa{
+	position:absolute;
+	opacity: 0.4;
+}
+.card1 .card-left{
+	width:100%;
+	padding:30px;
+	background-color:#eee;
+	float:left;
+	margin-top:100px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	border:2px solid black;
+	font-size:20px;
+
+
+}
+
+
+ .card1 .card-left:hover{
+	background-color:blue;
+
+}
+.card1 .card-right{
+	width:100%;
+	
+padding:30px;
+background-color:#eee;
+margin-top: 100px;
+margin-left: 30px;
+margin-bottom:30px;
+border:2px solid black;
+font-size:20px;
+
+
+}
+.card1{
+	display:flex;
+}
+.card1 .card-middle{
+	width:100%;
+	
+padding:30px;
+background-color:#eee;
+margin-left: 30px;
+margin-top: 100px;
+margin-bottom: 30px;
+border:2px solid black;
+font-size: 20px;
+
+
+}
+.row-header1{
+	display:flex;
+}
+.card3{
+	display: flex;
+
+}
+
+
+
+
+
+	
+
+
+
+.card2{
+	display:flex;
+	
+	}
+	.card2 .cards {
+		margin: 15px;
+		vertical-align: center;
+		margin-left:50px;
+		padding: 5px;
+		border:2px solid #fee;
+		width:50%;
+		margin-right: 30px;
+
+
+
+	}
+	.card3 .card-mm{
+		margin:15px;
+		margin-left: 50px;
+		padding:5px;
+		border:2px solid #fee;
+		vertical-align: center ;
+		margin-top: 30px;
+		margin-right: 20px;
+		width:50%;
+	
+		
+	}
+	.row-footer-left{
+		width:50%;
+		float:left;
+		margin-left:40px;
+		
+
+	}
+	.row-footer{
+		display:flex;
+		background-color: #343a40;
+		padding:30px;
+		margin-top: 4rem;
+		color:#fee;
+	}
+.row-footer-middle{
+	width:30%;
+}
+.row-footer-right{
+	width:50%;
+}
+.row-card{
+	display:flex; 
+}
+
+.footer1-left,.footer2-left{
+	
+	float:left;
+	margin: 2px;
+}
+
+
+	.row-cardfooter{
+		display:flex;
+	}
+	.footer1-right, .footer2-right{
+		margin-top: 5px;
+		margin-left: 5px;
+	}
+</style>
+
+			
+	
+	
+
+		
+
+		
+		
+
+		
+		
+
+</head>
+<body>
+	<div class="header">
+		<div class="first-header">
+		<a href="#">Register |  </a> 
+			<a href="#">Sign in |</a>
+		<a href="#">Alumini|</a>
+		
+	</div>
+</div>
+	<img src="image/ph10.png" width="100%" class="imm">
+		
+	
+</div>
+
+	
+	<div class="body">
+		<div class="nav">
+		
+			<a href="#">HOME</a>&nbsp;&nbsp;&nbsp;
+			<a href="#">ABOUTYTU&#9660;</a>&nbsp;&nbsp;
+			<a href="#">ADMISSION&#9660;</a>&nbsp;&nbsp;
+			<a href="#">DEPARTMENT&#9660;</a>&nbsp;&nbsp;
+			<a href="#">ACADEMICS&#9660;</a>&nbsp;&nbsp;
+			<a href="#">NEWS AND EVENTS&#9660;</a>&nbsp;&nbsp;
+			<a href="#">RESEARCH&#9660;</a>&nbsp;&nbsp;
+			<a href="#">CONFERENCE&#9660;</a>&nbsp;&nbsp;
+			<a href="#">INTERNATIONAL AFFAIR&#9660;</a>&nbsp;&nbsp;
+			<a href="#">GALLARY</a>
+
+
+
+
+
+
+
+
+		
+		</div>
+	</div>
+</div>
+
+	
+	
+	
+	
+		<div class="box">
+			<div class="box-left">
+			<img src="image/ph6.jpg" width="350px">
+		</div>
+		<div class="box-right">
+			<h2> Ministry of Education Yangon Technological University The Seventh International Conference on Science and Engineering 2016 Opening Ceremony
+
+Ministry of Education Yangon Technological University </h2><span>The Seventh International Conference on Science and Engineering 2016 Opening Ceremony</span>
+
+<button class="text">READ MORE&#8594;</button>
+</div>
+</div>
+	
+</div>
+</div>
+<div>
+	<div class="sector"> </div>
+		<div class="main-body">
+			<div class="left">
+				<h2>OUR OBJECTIVES</h2>
+				<p>It is envisaged that YTU will<br> become a highly-prestigious technological centre of excellence in teaching and research<br> with a strong commitment to systematically educate and train<br></p>
+					<button class="txt"> Read more &#8594;</button>
+			
+			</div>
+			<div class="middle">
+				<h2>Our Missions</h2>
+
+<p>To educate and train students systematically to become engineers, specialists and researchers who can effectively contribute to the building of a modern developed nation</p>
+
+			<button class="txt" type="circle"> Read more &#8594;</button>
+		</div>
+			<div class="right">
+				<h2>Programs</h2>
+
+when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,<br>
+<button class="txt">Read more &#8594;</button>
+
+			</div>
+		</div>
+		<div class="row">
+
+			<div class="row-left">
+				<img src="image/ph8.jpg" width="80%">
+
+				
+
+				</div>
+	
+					<div class="row-right">
+			
+					<h2>Rector’s Messages</h2>
+
+<span>Yangon Technological University is one of the best universities in Myanmar and only allows admissions of students who gained high marks from the matriculation examination. A student's majorized engineering field is also decided by the marks he earned through the matriculation examination. Currently, YTU possesses 12 Engineering Departments, 6 Supporting Departments, 1 Research Centre and 47 Laboratories. There are currently about 2000 students seeking knowledge and experiences at YTU. VISION It is…</span><br>
+<button class="txt">Read more&#8594;</button>
+
+				</div>
+				</div>
+
+			</div>
+		<h2 class="pass">YTU EVENTS</h2>
+	 
+			<div class="card">
+			
+				<div class="card1">
+					<img src="image/ph9.png" width="280px">
+			
+				</div>
+				<div class="card2">
+					<img src="image/ph6.jpg" width="280px">
+					
+				</div>
+				<div class="card3">
+					<img src="image/ph5.jpg" width="280px">
+				</div>
+				<div class="card4">
+					<img src="image/ph1.jpg" width="280px">
+				</div>
+		
+		</div>
+	
+<div>
+		
+			<button class="txt">Read more&#8594;</button>
+		</div><br>
+		<br>
+<div class="paragraph">
+	<h2 class="pass"> WELCOME TO YOU </h2>
+	<span class="pre">Yangon Technological University is one of the best universities in Myanmar and only allows admissions of students who gained high marks from the matriculation examination. A student’s majorized engineering field is also decided by the marks he earned through the matriculation examination. Currently, YTU possesses 12 Engineering Departments, 6 Supporting Departments, 1 Research Centre and 47 Laboratories. There are currently about 2000 students seeking knowledge and experiences at YTU. Find out more about the history of YTU at … </span>
+</div>
+</div>
+<div>
+<button class="text">READ MORE&#8594;</button>
+</div>
+</div>
+
+
+	<img src="image/ph25.PNG"  width ="100%" class="iaa">
+<div class="card1">
+	
+
+	<div class="card-left">
+	<h2 class="pass"> 25</h2>
+
+	<span> DEPARTMENT PUBLISHED</span></div>
+		 
+
+	<div class="card-middle">
+		<h2 class="pass"> 1000</h2>
+	<span>PROFESSIONAL LECTURES</span></div>
+	
+	<div class="card-right">
+		<h2 class="pass"> 2000</h2>
+		<span> STUDENT ENROLLMENT</span>
+	</div>
+</div>
+
+<br>
+<br>
+<h2 class="pass">UPDATE NEWS</h2>
+<div class="row2">
+<div class="card2">
+	<div class="cards">
+	<img src="image/ph6.jpg" width="280px">
+	<h4 class="bottom">Ministry Of Education Yangon</h4>
+</div>
+
+<div class="cards">
+	<img src="image/ph5.jpg" width="300px">
+	<h4 class="bottom">Myanmar first Programme in..</h4>
+
+</div>
+
+	<div class="cards">
+		<img src="image/ph4.jpg" width="280px">
+		<h4 class="bottom">7TH WSPZP</h4>
+	</div>
+ </div>
+ <div class="row3">
+<div class="card3">
+	<div class="card-mm">
+	<img src="image/ph3.jpg" width="280px">
+	<h4 class="bottom">Swal Daw Leaf</h2>
+	
+</div>
+<div class="card-mm">
+	<img src="image/ph2.jpg" width="280px">
+	<h4 class="bottom">Reactor's Collaborative Visit TO University..</h4>
+</div>
+
+	<div class="card-mm">
+
+		<img src="image/ph1.jpg" width="280px">
+		<h4 class="bottom">Training Of IOT And Environmental</h4>
+	</div>
+ </div>
+ <button class="std">READ MORE&#8594;</button>
+
+</div><br>
+<br>
+
+ <div class="footer">
+ 	<div class="footer1">
+ 		<div class="row-footer">
+ 			<div class="row-footer-left">
+ 				<h1>About YTU</h1>
+ 				<p>The present Yangon Technological University (Y.T.U)<br> began as the Department of Engineering in 1923<br> under the Rangoon (Yangon) University. The<br> Engineering Department was situated downtown, on <br>the Bogyoke Aung San street. B.Sc. (Engineering) <br>program in Civil Engineering began in 1924.</p><br>
+ 				<br>
+ 				<br>
+ 			
+ 				<h5>&copy; Yangon Technological University - 2020 </h5>
+ 			</div>
+ 				<div class="row-footer-middle">
+ 					<h1>Our Links</h1>
+ 					<ul>
+ 						   <li> Home</li>
+   							<li> Architecture</li>
+   							<li> Civil Engineering</li>
+    						<li>Mechanical Engineering</li>
+    						<li>Mining Engineering</li>
+    						<li>Alumini</li>
+    					</ul>
+
+ 				</div>
+ 				<div class="row-footer-right">
+ 					<h1> Recent Posts</h1>
+ 					<div class="row-card">
+ 						<div class="footer1-left">
+ 							<img src="image/ph16.jpg" width="100px">
+
+ 						</div>
+ 						<div class="footer2-right">
+ 							<span> EVENTS TWO<br>
+ 							 November 18,2019.</span>
+
+ 						</div>
+ 					</div>
+ 					<div class="row-cardfooter">
+ 						<div class="footer2-left">
+ 							<img src="image/ph4.jpg" width="100px">
+ 						</div>
+ 						<div class="footer2-right">
+ 							<span> EVENTS ONE<br>
+ 							Novermber 18, 2019.</span>
+ 						</div>
+
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+
+
+
+
+
+
+
+	
+
+</body>
+</html>
