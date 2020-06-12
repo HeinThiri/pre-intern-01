@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script>
+		document.addEventListener('DOMContentLoaded', function(){
+
+			document.querySelector('#black').onclick=function(){
+				document.querySelector('#title').style.color='black'
+			
+
+			};
+			document.querySelector('#red').onclick=function(){
+				document.querySelector('#title').style.color='red'
+			};
+			document.querySelector('#blue').onclick=function(){
+				document.querySelector('#title').style.color='blue'
+
+		};
+		document.querySelector('#green').onclick=function(){
+				document.querySelector('#title').style.color='green'
+			};
+	});
+
+	</script>
+	<title> My Website</title>
+</head>
+<body>
+	
+	<form id="color-code">
+		<h1 id="title"> Hello!Welcome to Our PreIntern Group.</h1>
+	
+			<select  >
+				<option id="black" value="Black" autofocus="" > Black</option>
+					<option id="red" value="Red" autofocus="" > Red</option>
+						<option id="blue" value="Blue" autofocus="" > Blue</option>
+							<option id="green" value="Green" autofocus="" >Green
+							</option>
+						</select>
+					</form>
+				
+
+
+</body>
+</html>
